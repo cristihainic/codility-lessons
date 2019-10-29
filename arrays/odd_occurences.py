@@ -1,7 +1,7 @@
 def solution(A):
     for num in A:
         if A.count(num) % 2 != 0:
-            return int(num)
+            return num
 
 # test cases
 x = [9, 3, 9, 3, 9, 7, 9]
